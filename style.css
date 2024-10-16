@@ -1,3 +1,52 @@
 body {
-	background-color: BurlyWood;
+	background: BurlyWood;
+	h1,h2,h3,h4{
+		font-family: 'Impact';
+		color: white;
+		-webkit-text-stroke: 0.7px black;
+	}
+	p,ul,ol,li{
+		font-size: 18px;
+	}
+	d{
+		font-family: 'Trebuchet MS';
+		margin-left: 30px;
+		font-size: 22px;
+		color: Gray;
+		-webkit-text-stroke: 0.8px black;
+	}
+}
+	
+div.content{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+	
+	div.content-left{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 30px;
+		padding: 15px;
+		border: 5px solid #70380f;
+		border-radius: 15px;
+		background: Chocolate;
+	}
+
+	div.content-right{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 30px;
+		padding: 15px;
+		border: 5px solid #70380f;
+		border-radius: 15px;
+		background: Chocolate;
+	}
+}
+
+img.size{
+	width: 200;
+	height: 200;
 }
