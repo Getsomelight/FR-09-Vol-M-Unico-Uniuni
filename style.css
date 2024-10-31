@@ -80,10 +80,36 @@ img.size1{
 	height: 200;
 }
 
+img.size2{
+	width: 150;
+	height: 150;
+}
+
 img.RyanGosling{
 	position: fixed;
 	width: 100;
 	height: 100;
 	right: 0;
 	bottom: 0;
+}
+
+div.column_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100;
+	
+	img.meme{
+		max-height: 600;
+		max-width: 1000;
+		border: 2px solid black;
+		margin-bottom: 100;
+	}
+	
+	video.meme{
+		max-height: 600;
+		max-width: 1000;
+		border: 2px solid black;
+		margin-bottom: 100;
+	}
 }
