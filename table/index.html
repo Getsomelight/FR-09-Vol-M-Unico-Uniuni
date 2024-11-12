@@ -73,6 +73,26 @@
 					</tr>
 				</table>
 			</div>
+			<div class="content">
+				<form>
+			        <fieldset>
+			            <legend>Are you my friend?</legend>
+			            <label>Name:</label>
+			            <input type="text" name="Name" required><br>
+			            <label>Age:</label>
+			            <input type="number" name="Age" required><br>
+			            <label>Species:</label>
+			            <input type="text" name="Species" required><br>
+			            <label for="Gender">Gender:</label>
+						<input list="Gender" name="Gender" required>
+						<datalist id="Gender">
+							<option value="Male">
+							<option value="Female">
+						</datalist>
+			            <input type="submit" value="Add">
+			        </fieldset>
+			    </form>
+			</div>
 		</main>
 	</body>
 </html>

@@ -22,3 +22,10 @@ tr{
 tr:nth-child(even){
     background-color: #f0b364;
 }
+
+legend, label{
+    font-size: 20px;
+    font-family: 'Impact';
+	color: white;
+	-webkit-text-stroke: 0.7px black;
+}
