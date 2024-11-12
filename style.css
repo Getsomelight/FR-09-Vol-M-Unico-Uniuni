@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background: BurlyWood;
+	background: #deb887;
 	h1,h2,h3,h4{
 		font-family: 'Impact';
 		color: white;
@@ -58,6 +58,9 @@ footer{
 	align-items: center;
 	height: auto;
 	width: auto;
+	background: #dfa265;
+	/*border-top: 10px solid #c78836;*/
+	border-left: 10px solid #c78836;
 	
 	h2{
 		padding-right: 10;
