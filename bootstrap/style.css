@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	position: relative;
+	h1,h2{
+		font-family: 'Impact';
+		color: white;
+		-webkit-text-stroke: 0.7px black;
+	}
+	p,ul,ol,li{
+		font-size: 18px;
+	}
+	d{
+		font-family: 'Trebuchet MS';
+		margin-left: 30px;
+		font-size: 22px;
+		color: Gray;
+		-webkit-text-stroke: 0.8px black;
+	}
+	a{
+		font-family: 'Trebuchet MS';
+		font-size: 20px;
+	}
+}
+
+header{
+	height: 10%;
+	width: 94%;
+	margin-left: 6%;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 15px;
+	/*border-left: 10px solid #781560;*/
+	background: #ff1d8d;
+	
+	div.label{
+		margin-left: 20px;
+	}
+	
+	img.ico{
+		display: flex;
+		align-self: center;
+		margin-right: 25;
+		margin-left: 12;
+		max-width: 64;
+		max-height: 64;
+	}
+}
+
+.header__f{
+	width: 100%;
+	margin-left: 0%;
+}
+
+main{
+	height: auto;
+	width: 94%;
+	margin-left: 6%;
+	position: relative;
+	background: #ffa3d5;
+	padding-bottom: 40;
+}
+
+.main__f{
+	padding-top: 30;
+	height: 75%;
+	width: 100%;
+	margin-left: 0%;
+}
+
+footer{
+	padding-left: 16px;
+	display: flex;
+	align-items: center;
+	height: 15%;
+	width: 94%;
+	margin-left: 6%;
+	position: relative;
+	background: #5c2d47;
+	
+	h2{
+		padding-right: 10;
+	}
+}
+
+.footer__f{
+	width: 100%;
+	margin-left: 0%;
+}
+
+content{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-bottom: 40;
+}
+
+button.bio{
+	margin-left: 30;
+	margin-top: 60;
+	margin-bottom: 60;
+}
+
+div.card-footer{
+	display: flex;
+	justify-content: center;
+}
+
+p.bio{
+	margin-left: 30;
+	margin-right: 30;
+}
+
+p.bioe{
+	margin-left: 30;
+	margin-right: 30;
+	margin-bottom: 60;
+}
+
+.alert{
+	margin: 30;
+}
+
+sidebar{
+	height: 100%;
+	width: 6%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #781560;
+	padding-top: 70;
+}

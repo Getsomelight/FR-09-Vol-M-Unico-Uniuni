@@ -43,8 +43,8 @@ div.container-3{
 
 div.position{
 	display: flex;
-	max-width: 600;
-	max-height: 600;
+	width: 600;
+	height: 600;
 	border: 5px solid;
 	
 	div.redsquare{

@@ -1,0 +1,204 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Keanu Reeves</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="icon" href="../images/keanureeves-ico.jpg" type="image/jpg">
+		<link 
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+			rel="stylesheet" 
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body data-bs-spy="scroll">
+		<sidebar>
+			<ul class="nav flex-column">
+				<li class="nav-item">
+					<a class="nav-link" href="#carousel">Actor</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#biography">Bio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#cards">Popular films</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#act">Check this</a>
+				</li>
+			</ul>
+		</sidebar>
+		<header>
+			<img class="ico"
+				src="../images/keanureeves-ico.jpg"
+			/>
+			<h2>Keanu Reeves</h2>
+			<nav class="navbar navbar-expand-sm">
+				<div class="container-fluid">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Homepage</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">My favourite actor</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="films.html">Films</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>	
+			<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img 
+							src="../images/keanureeves1.webp"
+							class="d-block"
+							width=100%
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="../images/keanureeves2.jpg"
+							class="d-block"
+							width=100%
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="../images/keanureeves3.png"
+							class="d-block"
+							width=100%
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="../images/keanureeves4.jpg"
+							class="d-block"
+							width=100%
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="../images/keanureeves5.jpg"
+							class="d-block"
+							width=100%
+						/>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+			<button
+				id="biography"
+				type="button"
+				class="btn btn-outline-dark bio"
+				data-bs-toggle="collapse"
+				data-bs-target="#biography"
+			>
+				Biography
+			</button>
+			<div id="biography" class="collapse">
+				<p class="bio">
+					Keanu Charles Reeves born September 2, 1964. He is a Canadian actor and musician. 
+				</p>
+				<p class="bio">
+					Describing himself as a "private kid", Reeves attended four different high schools, including the Etobicoke School of the Arts, from which he was expelled. Reeves said he was expelled because he was "just a little too rambunctious and shot my mouth off once too often ... I was not generally the most well-oiled machine in the school". Reeves has dyslexia and has said, "Because I had trouble reading, I wasn't a good student".
+				</p>
+				<p class="bioe">
+					Reeves has also been romantically linked to longtime friend and filmmaker Brenda Davis, to whose child he is godfather, and model-actress China Chow. Reeves also maintains a close friendship with his Bram Stoker's Dracula co-star Winona Ryder; after taking part in a wedding scene with a Romanian priest for the film, they still call each other "husband and wife" when speaking personally. In 2009, Reeves met Alexandra Grant at a dinner party; they went on to collaborate on two books together. They went public with their relationship in November 2019.
+				</p>
+			</div>
+			<content id="cards">
+				<div class="card" style="width: 400px">
+					<img
+						class="card-img-top"
+						src="../images/keanureevesposter1.jpg"
+						style="width: 399px"
+					/>
+					<div class="card-body">
+						<h3 class="card-title">John Wick</h3>
+						<p class="card-text">
+							When sadistic thugs attack John Wick - a brilliantly lethal ex-assassin - he hunts them down with the skill and ruthlessness that made him an underworld legend.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://www.kinopoisk.ru/film/762738/" class="btn btn-outline-danger">Watch on  Kinopoisk</a>
+					</div>
+				</div>
+				<div class="card" style="width: 400px">
+					<img
+						class="card-img-top"
+						src="../images/keanureevesposter2.jpg"
+						style="width: 398px"
+					/>
+					<div class="card-body">
+						<h3 class="card-title">Matrix</h3>
+						<p class="card-text">
+							When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth - the life he knows is the elaborate deception of an evil cyber-intelligence.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://www.kinopoisk.ru/film/301/" class="btn btn-outline-danger">Watch on  Kinopoisk</a>
+					</div>
+				</div>
+				<div class="card" style="width: 400px">
+					<img
+						class="card-img-top"
+						src="../images/keanureevesposter3.jpg"
+						style="width: 399px"
+					/>
+					<div class="card-body">
+						<h3 class="card-title">Devils Advocat</h3>
+						<p class="card-text">
+							Florida lawyer Kevin Lomax brilliantly defends his guilty clients. Handpicked by John Milton, the most powerful and feared attorney in New York, Kevin leaves his Southern roots, joining an exotic world of luxury cars, unlimited expense accounts and penthouse apartments. But his heavenly new career soon turns into hell as Milton's lure of limitless wealth, sex and fame spins out of control.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://www.kinopoisk.ru/film/3797/" class="btn btn-outline-danger">Watch on  Kinopoisk</a>
+					</div>
+				</div>
+			</content>
+			<button
+				id="act"
+				type="button"
+				class="btn btn-outline-dark bio"
+				data-bs-toggle="collapse"
+				data-bs-target="#jundtp"
+			>
+				Also check this
+			</button>
+			<div id="jundtp" class="collapse">
+				<content>
+					<img
+						src="../images/jundtp1.jpg"
+					/>
+					<img
+						src="../images/jundtp2.jpg"
+					/>
+					<img
+						src="../images/jundtp3.jpg"
+					/>
+				</content>
+			</div>
+        </main>
+		<footer>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
