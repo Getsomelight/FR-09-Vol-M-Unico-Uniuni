@@ -50,6 +50,7 @@ header{
 .header__f{
 	width: 100%;
 	margin-left: 0%;
+	border-left: 10px solid #781560;
 }
 
 main{
@@ -149,7 +150,7 @@ sidebar{
 	flex-direction: column;
 }
 
-.thead-dar,th{
+.thead-dar, th{
     background: #343a40 !important;
 	color: #fff !important;
 }
