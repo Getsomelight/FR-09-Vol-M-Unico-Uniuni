@@ -31,7 +31,6 @@ header{
 	justify-content: flex-start;
 	align-items: center;
 	padding: 15px;
-	/*border-left: 10px solid #781560;*/
 	background: #ff1d8d;
 	
 	div.label{
@@ -64,7 +63,7 @@ main{
 
 .main__f{
 	padding-top: 30;
-	height: 75%;
+	height: auto;
 	width: 100%;
 	margin-left: 0%;
 }
@@ -102,6 +101,10 @@ button.bio{
 	margin-bottom: 60;
 }
 
+.card-b{
+	margin-bottom: 16;
+}
+
 div.card-footer{
 	display: flex;
 	justify-content: center;
@@ -130,4 +133,29 @@ sidebar{
 	top: 0;
 	background: #781560;
 	padding-top: 70;
+}
+
+.container{
+	margin-bottom: 24;
+}
+
+.cont{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.contc{
+	display: flex;
+	flex-direction: column;
+}
+
+.thead-dar,th{
+    background: #343a40 !important;
+	color: #fff !important;
+}
+
+@media (max-width: 992px){
+	#zero{
+		display: none;
+	}
 }
